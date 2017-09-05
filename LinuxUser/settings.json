@@ -1,0 +1,175 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/bin/nvim",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "vim.statusBarColorControl": true,
+    "vim.easymotion": true,
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [":"],
+            "after": [";"]
+        },
+        {
+            "before": [";"],
+            "after": [":"]
+        },
+        {
+            "before": ["leader", ";"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.showCommands",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "0"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.gotoSymbol",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "="],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.nextEditorInGroup",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "-"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.previousEditorInGroup",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "p", "f"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "b", "s"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "b", "f"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.showAllEditors",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "w"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "extension.vim_navigateUp",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "s"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "extension.vim_navigateDown",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "a"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "extension.vim_navigateLeft",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "d"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "extension.vim_navigateRight",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["j"],
+            "after": ["g", "j"]
+        },
+        {
+            "before": ["k"],
+            "after": ["g", "k"]
+        },
+        {
+            "before": ["g", "j"],
+            "after": ["j"]
+        },
+        {
+            "before": ["g", "k"],
+            "after": ["k"]
+        }
+    ],
+    "haskell.ghcMod.executablePath": "/usr/bin/ghc-mod",
+    "workbench.colorTheme": "Gruvbox Dark (Medium)",
+    "workbench.sideBar.location": "right",
+    "editor.rulers": [80],
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "latex-workshop.version": "2.10.0",
+    "latex-workshop.latex.toolchain": [
+        {
+            "command": "/Library/TeX/texbin/latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-xelatex",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }
+    ],
+    "window.menuBarVisibility": "toggle",
+    "rust.rustup": {
+        "toolchain": "nightly-x86_64-unknown-linux-gnu",
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "rust.mode": "rls",
+    "rust.rls": {
+        "useRustfmt": false
+    }
+}
