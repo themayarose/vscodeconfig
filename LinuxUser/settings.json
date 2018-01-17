@@ -4,7 +4,7 @@
     "vim.enableNeovim": true,
     "vim.neovimPath": "/usr/bin/nvim",
     "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "vim.statusBarColorControl": true,
     "vim.easymotion": true,
@@ -153,7 +153,7 @@
     "latex-workshop.version": "2.10.0",
     "latex-workshop.latex.toolchain": [
         {
-            "command": "/Library/TeX/texbin/latexmk",
+            "command": "latexmk",
             "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
@@ -171,5 +171,7 @@
     "rust.mode": "rls",
     "rust.rls": {
         "useRustfmt": false
-    }
+    },
+    "C_Cpp.intelliSenseEngine": "Default",
+    "javascript.implicitProjectConfig.experimentalDecorators": true
 }
